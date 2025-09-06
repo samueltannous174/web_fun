@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+ 
+</head>
+<body>
+    <div class="main">
+        <header class="head">
+            <h1> Dojonary</h1>
+            <input type="text" name="search" class="search" placeholder="search..">
+            <button id="loginBtn" onclick="toggleLogin()"  class="login"> Login</button>
+        </header>
+        <div class="mainBoxes">
+            <div class="leftBoxes">
+                <div class="box1">
+                    <div class="box">
+                        <p  class="ninja">ninja</p>
+                        <p  class="fonts" >noun</p>
+                        <p  class="fonts" >plural ninjas</p>
+                        <button class="likes" onclick="like(this)"> 13 Likes </button>
+                    </div>
+                    <div class="skill">
+                        <p  class="fonts"> A practitioner skilled in the Jabaneese</p>
+                        <div class="name">
+                            <a href="jabaneese" class="color"> jabaneese</a>
+                            <p> art of</p>
+                            <a href="ninjuts" class="color"> ninjuts</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="box">
+                        <p  class="ninja">ninja</p>
+                        <p  class="fonts" >noun</p>
+                        <p  class="fonts" >plural ninjas</p>
+                        <button class="likes"> 37 Likes </button>
+                    </div>
+                    <div class="skill">
+                        <p class="para2"> A <a href="" class="color"> Programmer</a> who breaks down problems with Zen-like focus</p>
+                        </div>
+                </div>
+            </div>
+            <div class="sidebar-card" id="definitionBox">
+                <p class="para">Dojonary is defined by <span class="bold">YOU</span></p>
+                <button class="defButton" id="addDefBtn" onclick="removeBtn()">Add Definition</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+ 

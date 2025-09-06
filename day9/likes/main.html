@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Network Feed</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Network</h1>
+        </div>
+        <div class="feed-title">Your Feed</div>
+        <div class="content">
+            <div class="sidebar">
+                <div class="profile-box">
+                    <div class="avatar-circle">👤</div>
+                    <div class="add-avatar-link">Add an avatar</div>
+                    <div class="username">James Doe</div>
+                </div>
+            </div>
+            
+            <div class="main-area">                
+                <div class="post">
+                    <div class="post-header">
+                        <div  class="author-name font">Neil M</div>
+                        <div class="post-info">
+                            <div class="like-count font">9 like(s)</div>
+                            <button class="like-button font" onclick="likePost(this)">Like</button>
+                        </div>
+                    </div>
+                    <div class="post-text fontLarge">
+                        I just set up this new discord bot, let me know what you all think. <span class="post-link">link</span>
+                    </div>
+                </div>
+                
+                <div class="post">
+                    <div class="post-header">
+                        <div class="author-name font">Nichole K</div>
+                        <div class="post-info">
+                            <div class="like-count font">12 like(s)</div>
+                            <button class="like-button font" onclick="likePost(this)">Like</button>
+                        </div>
+                    </div>
+                    <div class="post-text fontLarge">
+                        Just finished my <span class="post-link">next comic</span>, check it out.
+                    </div>
+                </div>
+                
+                <div class="post">
+                    <div class="post-header">
+                        <div class="author-name font">Jim R</div>
+                        <div class="post-info">
+                            <div class="like-count font">1 like(s)</div>
+                            <button class="like-button font" onclick="likePost(this)">Like</button>
+                        </div>
+                    </div>
+                    <div class="post-text fontLarge ">
+                        I can't stop listening to the <span class="post-link">new album</span>. Who else is liking it?
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
