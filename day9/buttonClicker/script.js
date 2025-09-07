@@ -4,10 +4,11 @@ function toggleLogin() {
     const btn = document.getElementById("loginBtn");
     if (btn.innerText === "Login") {
       btn.innerText = "Logout";
-    } else {
+    }
+     else {
       btn.innerText = "Login";
     }
-  }
+  }   
 
 function like(button) {
   alert("Ninja was liked");

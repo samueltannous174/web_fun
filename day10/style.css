@@ -1,0 +1,187 @@
+.container {
+    background: white;
+    border-radius: 15px;
+}
+.headerContainer {
+    background: #87CEEB;
+    }
+.logo{
+    font-size: 70px;
+    margin: 0px;
+    color: aliceblue;
+}
+.country{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.header {
+    background: #87CEEB;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    align-items: center;
+}
+.locationRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.tempToggle{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: end;
+    gap: 20px;
+
+}
+.temp{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 30px;
+}
+hr{
+    width: 80%;
+    margin: 0 auto;
+    color: black ;
+    border: 1px solid black;
+}
+
+.forecastContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  .dayCard {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(244, 244, 244);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 15px;
+    text-align: center;
+    flex: 1 1 200px;
+    height: 370px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .icon {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  .label {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .desc {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .temp {
+    font-size: 26px;
+    color: #203e88;
+  }    
+  .tempCon {
+    font-size: 26px;
+    color: #203e88;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }      
+    
+  .temp2 {
+    font-size: 26px;
+    color: #d10a0ad4;
+  } 
+  .temp3 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 23px;
+    color: black;
+  }         
+
+  .cookieBanner {
+    background: white;
+    border: 2px solid #333;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 20px auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.cookieIcon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    flex-shrink: 0;
+}
+
+.cookieContent {
+    flex: 1;
+}
+
+.cookieTitle {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.cookieText {
+    font-size: 24px;
+    line-height: 1.4;
+    color: #666;
+}
+
+.cookieLink {
+    color: #4444ff;
+    text-decoration: underline;
+}
+
+.cookieButton {
+    background: #9FC5F8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 15px;
+    border: 2px solid #333;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.cookieButton:hover {
+    background: #7BB5D1;
+}
+
+

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="headerContainer">
+            <div class="header">
+                <h1 class="logo">DojoWeather</h1>
+                <nav class="navLinks">
+                    <a href="#" class="country" onclick="showAlert('Burbank')">Burbank</a>
+                    <a href="#" class="country" onclick="showAlert('Chicago')">Chicago</a>
+                    <a href="#" class="country" onclick="showAlert('Dallas')">Dallas</a>
+                </nav>
+            </div>
+        </div>
+
+
+        <div class="locationRow">
+            <h1 class="location">San Jose</h1>
+            <div class="temp3">
+                show temperature in 
+                <select class="tempSelect" onchange="toggleTemperature()">
+                    <option value="C">°C</option>
+                    <option value="F">°F</option>
+                </select>
+            </div>
+        </div>
+        <hr>
+
+        <div class="forecastContainer">
+            <div class="dayCard">
+                <div class="label">Today</div>
+                <img class="icon" src="some_rain.png" alt="cloud">
+                <div class="desc">Some rain</div>
+                <div class="tempCon"><p class="temp">24°</p> <p class="temp2">18°</p></div>
+            </div>
+        
+            <div class="dayCard">
+                <div class="label">Tomorrow</div>
+                <img class="icon" src="some_sun.png" alt="cloud">
+                <div class="desc">Some sun</div>
+                <div class="tempCon"><p class="temp">27°</p> <p class="temp2">19°</p></div>
+            </div>
+        
+            <div class="dayCard">
+                <div class="label">Friday</div>
+                <img class="icon" src="some_clouds.png" alt="cloud">
+                <div class="desc">Some clouds</div>
+                <div class="tempCon"> <p class="temp">21°</p> <p class="temp2">16°</p></div>
+            </div>
+        
+            <div class="dayCard">
+                <div class="label">Saturday</div>
+                <img class="icon" src="some_sun.png" alt="cloud">
+                <div class="desc">Some sun</div>
+                <div class="tempCon"> <p class="temp">26°</p> <p class="temp2">21°</p></div>
+            </div>
+        </div>    
+
+        <div class="cookieBanner">
+            <img class="cookieIcon" src="cookie.png" alt="cookie">
+            <div class="cookieContent">
+                <div class="cookieTitle">Stop! Cookie time</div>
+                <div class="cookieText">
+                    We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#" class="cookieLink">Read more...</a>
+                </div>
+            </div>
+            <button class="cookieButton" onclick="closeCookieBanner()">I Accept</button>
+        </div>
+    </div>   
+</body>
+</html>
