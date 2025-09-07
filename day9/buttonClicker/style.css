@@ -75,7 +75,6 @@
 .sidebar-card {
     border: 2px solid black;
     margin-left: 10%;
-    width: 280px;
     padding: 30px;
     height: 80%;
     display: flex;
@@ -84,7 +83,6 @@
 
 }
 .defButton{
-    width: 80%;
     height: 40px;
     color: black;
     background-color: rgb(108, 207, 86);
