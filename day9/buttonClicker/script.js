@@ -24,8 +24,7 @@ function like(button) {
     if (btn) {
       btn.remove(); 
     } else{
-      console.log("no btn");
-     
+      console.log("no btn"); 
     }
   }
 function like(button) {
