@@ -22,7 +22,7 @@
     display: flex;
     background-color: black;
     align-items: center;
-    width: 35%;
+    width: 45%;
     gap: 30px;
     justify-content: flex-end;
 }
