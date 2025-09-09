@@ -26,7 +26,7 @@ function toggleTemperature() {
         } else if (unit === "C" && !isCelsius) {
             value = Math.round((value - 32) * 5/9);
             temp.textContent = value + "°";
-        }
+        }   
     });
 
     isCelsius = (unit === "C");
