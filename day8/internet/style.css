@@ -281,3 +281,7 @@ body{
         flex-direction: column;
         align-items: left;
       }
+
+      .big-three-text{
+        font-size: 22px;
+      }
