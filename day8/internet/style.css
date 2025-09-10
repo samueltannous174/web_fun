@@ -156,16 +156,22 @@ body{
     color: white;
 }
 
-hr{
+.hr1{
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid rgb(183, 182, 167);
+}
+.hr2{
     width: 100%;
     margin: 0 auto;
     border: 1px solid rgb(183, 182, 167);
 }
+
 .imageCard{
     background-image: url(internetImages/ad_background.png);
     background-size: cover;
     background-position: center;
-    width: 100%;
+    width: 320px;
     height: 40%;
     align-items: center;
     justify-content: center;
@@ -261,7 +267,7 @@ hr{
       
       li {
         margin-bottom: 10px;
-        font-size: 18px;
+        font-size: 22px;
       }
       
       .highlight {
