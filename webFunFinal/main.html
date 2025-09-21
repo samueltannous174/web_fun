@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="headerContainer">
+          <div class="logoContainer">
+            <img src="images/logo.png" class="logo" alt="logo" />
+            <h1 class="title">GrowSync</h1>
+          </div>
+          <div class="navContainer">
+            <a href="#" class="navLink">Home</a>
+            <div class="verticalLine"></div>
+            <a href="#" class="navLink">About</a>
+            <div class="verticalLine"></div>
+            <a href="#" class="navLink">Services</a>
+          </div>
+        </div>
+      </header>
+      <div class="firstComponent">
+        <div class="firstComponentContainer">
+          <div class="firstComponentLeft">
+            <p class="firstComponentLeftParagraphOne">
+              We offer modern <span class="break">solutions for</span>
+              <span class="break">growing your</span>
+              <span class="break">business</span>
+            </p>
+            <p class="firstComponentLeftParagraphTwo">
+              We are team of talented designers making
+              <span class="break">websites</span>
+            </p>
+            <button
+              class="firstComponentButton Button defaultButtonColor"
+              onmouseover="hoverButton()"
+              onmouseout="removeHoverButton()"
+            >
+              Get Started >
+            </button>
+          </div>
+          <div class="firstComponentRight">
+            <img
+              src="images/hero-img.png"
+              class="firstComponentRightImage"
+              alt="firstComponentImage"
+            />
+          </div>
+        </div>
+      </div>
+      <hr class="hr1" />
+      <div class="secondComponent">
+        <div class="secondComponentContainer">
+          <div class="secondComponentLeft">
+            <label class="title">Who we are</label>
+            <p class="definition">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae aut
+              reiciendis consectetur corrupti voluptatibus dolorem architecto
+              fugiat distinctio eum voluptates cupiditate eaque rem a atque
+              omnis. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Quae aut reiciendis consectetur corrupti voluptatibus dolorem
+              architecto fugiat distinctio eum voluptates cupiditate eaque rem a
+              atque omnis.
+            </p>
+            <button
+              class="secondComponentButton Button defaultButtonColor"
+              onclick="changeContentAndImage()"
+            >
+              Make A Change
+            </button>
+          </div>
+          <div class="secondComponentRight">
+            <img
+              src="images/about.jpg"
+              class="secondComponentRightImage"
+              alt="secondComponentImage"
+            />
+          </div>
+        </div>
+      </div>
+      <hr class="hr1" />
+      <div class="thirdComponent">
+        <div class="thirdComponentContainer">
+          <div class="thirdComponentTop">
+            <label class="title">Our Services</label>
+            <button
+              class="thirdComponentButton Button defaultButtonColor"
+              onclick="addService()"
+            >
+              Add Service
+            </button>
+          </div>
+          <div class="thirdComponentBottom">
+            <div class="card">
+              <img
+                src="images/values-2.png"
+                class="cardImage"
+                alt="cardImage"
+              />
+              <p class="cardText">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                aut reiciendis consectetur corrupti voluptatibus dolorem
+                architecto fugiat distinctio eum voluptates cupiditate eaque rem
+                a atque omnis.
+              </p>
+            </div>
+            <div class="card">
+              <img
+                src="images/values-1.png"
+                class="cardImage"
+                alt="cardImage"
+              />
+              <p class="cardText">
+                Lorem ipsum dolor sit amet consectetur adipisicing dolorem
+                architecto dolorem architecto adipisicing elit. an
+                <span class="red">scalabale and flexible tools</span> suscipit
+                tempora <span class="underline">support</span> adipisicing elit.
+              </p>
+            </div>
+            <div class="card">
+              <img
+                src="images/values-3.png"
+                class="cardImage"
+                alt="cardImage"
+              />
+              <p class="cardText">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                aut reiciendis consectetur corrupti voluptatibus dolorem
+                architecto fugiat distinctio eum voluptates cupiditate eaque rem
+                a atque omnis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

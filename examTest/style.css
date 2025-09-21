@@ -1,0 +1,381 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(images/slide-01.jpg);
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.mainContainer {
+    display: flex;
+    width: 80%;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+.header{
+    display: flex;
+    height: 100px;
+    background-color: transparent;
+    position: sticky;
+    top: 0;
+}
+.headerLeft{
+    width: 20%;
+    display: flex;
+
+}
+.headerRight{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 70px;
+    margin: 0px auto;
+    align-items: center;
+
+}
+
+.headerButtion{
+    color: white;
+    border: none;
+    font-size: 16px;
+    background-color: transparent;
+}
+.supportButton{
+    background-color: #39ad66;
+    color: white;
+    border: none;
+    font-size: 16px;
+    height: 50%;
+    width: 15%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.firstComponent{
+    display: flex;
+
+}
+.firstComponentLeft{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    font-size: 100px;
+    gap: 80px;
+
+
+}
+.firstComponentText{
+    color: white;
+
+}
+
+.firstComponentText2{
+    font-size: 22px;
+    color: white;
+
+}
+.firstComponentButtonsContainer{
+    display: flex;
+    gap: 30px;
+}
+.firstComponentButtons{
+    background-color: #cf3a0c;
+    color: white;
+    border: none;
+    font-size: 16px;
+    height: 50px;
+    width: 180px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+.firstComponentButtons2{
+    background-color: #39ad66;
+    color: white;
+    border: none;
+    font-size: 16px;
+    height: 50px;
+    width: 220px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+.break{
+    display: block;
+}
+
+p{
+    margin: 0px;
+}
+.hr1{
+    height: 10px;
+    width: 150px;
+    margin: 0px;
+    color: white;
+    background-color: white;
+}
+.firstComponentImage{
+    position: absolute;
+    z-index: -1;
+    width: 1890px;
+    height: 100vh ;
+}
+.imageContainer{
+    position: relative;
+    padding-bottom: 50px;
+}
+.orange{
+    color: #cf3a0c;
+}
+.secondComponent{
+    padding: 150px;
+    height: 900px;
+    background-color: white;
+    display: flex;
+    gap: 30px;
+}
+.secondComponentLeft{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 30px;
+}
+
+.secondComponentRight{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 30px;
+}
+.secondComponentCard{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 320px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    gap: 40px;
+    padding: 60px;
+    box-sizing: border-box;
+    border: 3px solid #ffffff;
+    box-shadow: 30px 30px 30px 30px #f2f0ef;
+
+    
+}
+.secondComponentCardText{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 40px;
+}
+.secondComponentIcon{
+    width: 80px;
+    max-width: 20%;
+    height: 80px;
+}
+.secondComponentFirstText{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0px;
+
+}
+
+.secondComponentSecondText{
+    font-size: 17px;
+    margin: 0px;
+}
+
+.thirdComponent{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 800px;
+    
+}
+.thirdComponentImage{
+    width: 850px;
+    height: 800px;
+    position: absolute;
+    left: 5%;
+    top: -5%;
+}
+.thirdComponentText2{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.thirdComponentForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px;
+    gap: 30px;
+}
+
+
+
+
+
+
+
+
+.formSubtitle {
+    color: #f45e40;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.formTitle {
+    color: white;
+    font-size: 50px;
+    margin: 0;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.financialForm {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 30%;
+    margin-right: 170px;
+    padding: 10px;
+}
+
+.formRow {
+    display: flex;
+    gap: 50px;
+}
+
+.formGroup {
+    flex: 1;
+}
+
+
+
+.formGroup input,
+.formGroup select {
+    width: 100%;
+    padding: 5px;
+    background-color: #36394d;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.formGroup label {
+    color: white;
+    font-size: 16px;
+}
+
+
+
+.submitBtn {
+    background-color: #f48840;
+    color: white;
+    width: 40%;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+
+
+input::placeholder{
+    color: white;
+
+
+.headerButtion {
+    color: white;
+    border: none;
+    font-size: 16px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+.headerButtion:hover {
+    color: #f45e40;
+}
+}
+
+
+.fourthComponent{
+    display: flex;
+    height: 700px;
+    background-color: #ffffff;
+}
+
+.fourthComponentContainer{
+    width: 100%;
+    height: 800px;
+    background-color: white;
+
+}
+
+.fourthComponent{
+    display: flex;
+    flex-wrap: wrap;
+    height: 800px;
+    width: 60%;
+    margin: 0px auto;
+    height: 50%;
+    box-shadow: 10px 10px 30px 30px #e8e7e7;
+    margin-top: 70px;
+}
+.fourthComponentTexts{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    box-sizing: border-box;
+    width: 70%;
+    justify-content: center;
+    gap: 20px;
+
+}
+.fourthComponentText{
+    font-size: 22px;
+}
+.fourthComponentText2{
+    font-size: 22px;
+    color: #0abb4e;
+}
+
+.fourthComponentImage{
+    width: 30%;
+    height: 100%;
+}
+
+
+.next{
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.prev{
+    position: absolute;
+    left: 0;
+    top: 50%;
+}

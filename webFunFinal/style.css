@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(images/hero-bg.png);
+}
+
+
+
+
+.title {
+  font-size: 45px;
+  color: rgb(18, 18, 125);
+}
+.navLink {
+  font-size: 30px;
+  color: rgb(31, 31, 152);
+}
+.verticalLine {
+  border-left: 2px solid black;
+  height: 50px;
+}
+.logo {
+  width: 40px;
+}
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+.headerContainer {
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.navContainer {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.firstComponentContainer {
+  display: flex;
+  align-items: top;
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 30px;
+}
+.break {
+  display: block;
+}
+.firstComponentLeft {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.firstComponentLeftParagraphOne {
+  font-size: 45px;
+  color: rgb(42, 42, 146);
+  font-weight: 700;
+  line-height: 1.5;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, italic;
+}
+.firstComponentLeftParagraphTwo {
+  color: rgb(112, 122, 132);
+  font-size: 30px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  margin-top: 60px;
+  margin-bottom: 0px;
+}
+.hoverButton {
+  background-color: #3b4598;
+}
+.defaultButtonColor {
+  background-color: rgb(37, 87, 237);
+}
+.Button {
+  color: white;
+  font-size: 18px;
+  border: 3px solid black;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  text-align: center;
+  height: 45px;
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
+}
+.firstComponentButton {
+  margin-top: 100px;
+  width: 200px;
+}
+.secondComponentButton {
+  height: 50px;
+  margin-top: 30px;
+  width: 200px;
+}
+.thirdComponentButton {
+  width: 200px;
+}
+.firstComponentRight {
+  width: 60%;
+}
+.firstComponentRightImage {
+  width: 100%;
+  padding-left: 55px;
+  margin-top: 30px;
+}
+
+.secondComponentContainer {
+  display: flex;
+  align-items: top;
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 30px;
+  height: 750px;
+}
+.secondComponentLeft {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-top: 30px;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  box-sizing: border-box;
+  height: 600px;
+  gap: 20px;
+}
+.secondComponentRight {
+  width: 60%;
+}
+.hr1 {
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+.definition {
+  font-size: 25px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  text-indent: 50px;
+  margin: 0;
+}
+.secondComponentRightImage {
+  width: 100%;
+  max-height: 100%;
+}
+.thirdComponentContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+.thirdComponentTop {
+  display: flex;
+  align-items: center;
+  gap: 300px;
+}
+.thirdComponentBottom {
+  display: flex;
+  gap: 150px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+.card {
+  height: 500px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.cardText {
+  font-size: 20px;
+}
+.red {
+  color: red;
+}
+.underline {
+  text-decoration: underline;
+}
